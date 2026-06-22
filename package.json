@@ -1,0 +1,22 @@
+{
+  "name": "langchain_langgraph_vector_embedding_vectordb_rag",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@langchain/core": "^1.2.0",
+    "@langchain/google-genai": "^2.2.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongodb": "^7.3.0",
+    "nodemon": "^3.1.14"
+  }
+}
